@@ -5,7 +5,7 @@ An __experimental__ C library for reading Java .class files
 ## Dependencies ##
 
 This library depends on GLib 2 mostly for its datastructures like strings,
-hashes and lists. It is built using cmake 2.8 or newer.
+hashes and lists. It is built using cmake 3.0 or newer.
 
 ## License ##
 
