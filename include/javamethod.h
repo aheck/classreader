@@ -108,11 +108,6 @@ gboolean javamethod_has_varargs(JavaMethod *method);
 gboolean javamethod_is_abstract(JavaMethod *method);
 
 /*
- * Convert a JavaMethod to its Java declaration
- */
-void javamethod_to_string(JavaMethod *method, GString *buffer);
-
-/*
  * Set the public flag of the method
  */
 void javamethod_set_is_public(JavaMethod *method, gboolean value);

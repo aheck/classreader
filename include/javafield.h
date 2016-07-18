@@ -84,15 +84,6 @@ gboolean javafield_is_final(JavaField *field);
 gboolean javafield_is_enum(JavaField *field);
 
 /*
- * Convert a JavaField to code that can be used to declare it in Java
- *
- * The string returned by this method will look something like
- *
- * "public String myfieldname"
- */
-void javafield_to_string(JavaField *field, GString *buffer);
-
-/*
  * Set the public flag of the field
  */
 void javafield_set_is_public(JavaField *field, gboolean value);
