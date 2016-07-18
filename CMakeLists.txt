@@ -31,3 +31,18 @@ add_library(classreaderstatic STATIC
 set_target_properties(classreaderstatic PROPERTIES OUTPUT_NAME classreader)
 
 target_link_libraries(classreader glib-2.0)
+
+install(TARGETS
+    classreader
+    classreaderstatic
+    DESTINATION
+    lib
+)
+
+install(FILES
+    include/javaclass.h
+    include/javafield.h
+    include/javamethod.h
+    DESTINATION
+    include/classreader
+)

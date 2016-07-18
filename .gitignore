@@ -3,3 +3,5 @@ CMakeFiles
 CMakeCache.txt
 *.swp
 *.cmake
+install_manifest.txt
+libclassreader.*
